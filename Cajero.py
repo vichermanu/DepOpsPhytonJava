@@ -36,6 +36,7 @@ class Cajero:
 
     def menu(self):
         self.contraseña()
+        print("Bienvenido cliente Victor Manuel")
         opcion = 0
         while opcion != "5":
             os.system("cls")
