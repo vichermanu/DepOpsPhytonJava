@@ -17,9 +17,9 @@ class Cajero:
         contador = 1
         while contador <= 3:
             try:
-                x = int(input("Ingrese su pin:"))
+                x = int(input("Ingrese su pin o contraseña:"))
                 if x == 1235:
-                    print("Pin Correcto")
+                   # print("Pin Correcto")
                     break
                 else:
                     print(f"Pin incorrecto, restan {3 - contador} intentos más")
